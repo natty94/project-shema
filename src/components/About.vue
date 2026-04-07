@@ -9,6 +9,7 @@
           <p class="ad4">•Free WI-FI</p>
           <p class="ad5">•GYM</p>
           <p class="ad6">•Free Message</p>
+          <p class="loc">📍located in Huye District</p>
           <p class="adv">Our mission is the to deliver you best services</p>
         </div>
     
@@ -18,12 +19,13 @@
 <style>
 .titles{
     text-align: center;
+    text-indent: 80px;
    /*text-decoration: double coral 1px underline;*/
-    color: rgb(240, 102, 3);
+    color: rgb(96, 40, 0);
     font-variant: small-caps;
     font-size: xx-large;
     font-weight: 900;
-    text-shadow: 2px 2px 6px coral;
+    text-shadow: 2px 2px 6px rgb(156, 149, 146);
     
 }
 .contain{
@@ -50,7 +52,6 @@
 .ad1{
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(85, 185, 235, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -60,12 +61,12 @@
     box-shadow: 2px 2px 6px coral;
     position:absolute;
     left: 50px;
+    top:110px;
 }
 .ad2{
     box-shadow: 2px 2px 6px coral;
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(85, 185, 235, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -74,12 +75,12 @@
     font-size: 20px;
     position: absolute;
     left: 230px;
+    top: 90px;
 }
 .ad3{
     box-shadow: 2px 2px 6px coral;
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(85, 185, 235, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -87,13 +88,13 @@
     font-weight: 600;
     font-size: 20px;
     position: absolute;
-    left: 410px;
+    left: 408px;
+    top: 120px;
 }
 .ad4{
     box-shadow: 2px 2px 6px coral;
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(85, 185, 235, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -101,13 +102,13 @@
     font-weight: 600;
     font-size: 20px;
     position: absolute;
-    left: 600px;
+    left: 585px;
+    top: 90px;
 }
 .ad5{
     box-shadow: 2px 2px 6px coral;
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(85, 185, 235, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -115,13 +116,13 @@
     font-weight: 600;
     font-size: 20px;
     position: absolute;
-    left: 795px;
+    left: 765px;
+    top: 70px;
 }
 .ad6{
     box-shadow: 2px 2px 6px coral;
     width: 200px;
     height: 80px;
-    background-image: linear-gradient(to right, rgb(131, 225, 238),rgba(115, 218, 247, 0.297),rgb(68, 171, 166),rgba(51, 183, 249, 0.982));
     border: 2px rgb(255, 4, 4) double;
     border-radius: 6px;
     padding-top: 40px;
@@ -130,6 +131,7 @@
     font-size: 20px;
     position: absolute;
     left: 950px;
+    top: 120px;
 }
 h2{
     position: absolute;
@@ -138,6 +140,13 @@ h2{
     opacity: 0.8;
 }
 .adv{
+    position: absolute;
+    top: 250px;
+    font-variant: small-caps;
+    font-size: 20px;
+
+}
+.loc{
     position: absolute;
     top: 300px;
     font-variant: small-caps;

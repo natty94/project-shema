@@ -1,13 +1,13 @@
 <template>
     <div class="head">
-       <img src="/src/assets/logo.svg" alt="logo" class="logo">
-       <p class="name">UBUMWE Hotel</p>
+     <!--  <img src="/src/assets/logo.svg" alt="logo" class="logo">-->
+       <p class="name">🏩 UBUMWE Hotel</p>
        <div class="links">
         <router-link to="/"><button class="button">Home</button></router-link>
         <router-link to="/book"><button class="button">Book Room</button></router-link>
-        <router-link to="/order"><button class="button">Order food</button></router-link>
+        <router-link to="/admin"><button class="button">Admin</button></router-link>
         <router-link to="/About"><button class="button">About</button></router-link>
-        <router-link to="/contact"><button class="button">Contact</button></router-link>
+       <a href="#about"><router-link to="/contact"><button class="button">Contact</button></router-link></a>
         <router-view/>
        </div>
     </div>
@@ -54,7 +54,7 @@
     background-color:rgba(61, 61, 61, 0.039);
 }
 .name{
-    padding-left: 300px;
+    padding-left: 30px;
     background-color: white;
     color:rgb(179, 116, 33);
     font-size: 30px;

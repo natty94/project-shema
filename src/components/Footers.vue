@@ -1,8 +1,8 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" id="about">
     <div class="contact-info">
       <p>Email: info@ubumwehotel.rw</p>
-      <p>Phone: +250 788 000 000</p>
+      <p>Phone: +250 722 472 350</p>
     </div>
     <div class="social-links">
       <a href="https://facebook.com">Facebook</a>
