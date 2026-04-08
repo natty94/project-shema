@@ -1,7 +1,7 @@
 <template>
     <div class="head">
      <!--  <img src="/src/assets/logo.svg" alt="logo" class="logo">-->
-       <p class="name">🏩 UBUMWE Hotel</p>
+       <p class="name"><span class="log">🏩</span> UBUMWE Hotel</p>
        <div class="links">
         <router-link to="/"><button class="button">Home</button></router-link>
         <router-link to="/book"><button class="button">Book Room</button></router-link>
@@ -63,5 +63,8 @@
    /* text-decoration: double 1px crimson underline;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 2px;
+}
+.log{
+    text-shadow: none;
 }
 </style>

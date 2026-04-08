@@ -1,7 +1,7 @@
 <template>
     <div class="admi">
          <p class="well">Welcome 👨‍💼</p>
-         <p class="win"><span class="spa">You have logged as the manager</span><br>here you can register new rooms<br>⬇️</p>
+         <p class="win"><span class="spa">You have logged as the manager</span><br><br>here you can register new rooms<br>⬇️</p>
          <router-link to="/admin/register"><button class="admin">Register New Room</button></router-link>
          <router-view/>
     </div>
@@ -19,11 +19,11 @@
     height: 360px;
     width: 1200px;
     text-align: center;
-    animation: bounce 3s infinite  ease-in-out;
+    animation: bounce 10s infinite  ease-in-out;
 }
 .admin{
     position: relative;
-    top: 80px;
+    top: 30px;
     width: 650px;
     height: 35px;
     text-overflow: clip;
