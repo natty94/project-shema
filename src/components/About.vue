@@ -39,7 +39,7 @@
     height: 360px;
     width: 1200px;
     text-align: center;
-    animation: bounce 3s infinite  ease-in-out;
+    animation: bounce 10s infinite  ease-in-out;
 }
 .ad{
     display: flex;
